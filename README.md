@@ -16,9 +16,7 @@ A machine learning-based detection system that:
 
 ## 🎬 See It In Action
 
-**Working demonstration video:** [Demo.mp4](./working in realtime.mp4)
-
-> Click the video file above to see the system detecting sign language in real-time!
+**Working demonstration video:** [Demo.mp4](./working_in_realtime.mp4)
 
 ## 🛠️ Tech Stack
 
