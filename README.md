@@ -16,7 +16,7 @@ A machine learning-based detection system that:
 
 ## 🎬 See It In Action
 
-**Working demonstration video:** [Demo.mp4](./working_in_realtime.mp4)
+**Working demonstration video:** [Demo.mp4](./working_demo.mp4)
 
 ## 🛠️ Tech Stack
 
