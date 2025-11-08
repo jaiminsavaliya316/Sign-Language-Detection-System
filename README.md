@@ -1,22 +1,53 @@
-# Sign-Language-Detection-System
-Realtime detection of hand signs through webcam.
+# Sign Language Detection System 🤟
 
-Speech impaired people use hand signs and gestures to communicate. Normal people face difficulty in understanding their language.
-Hence, there is a need of a system which recognizes the different signs, gestures and conveys the information to the normal people.
-Thus we have developed an machine learning based sign language detection system which bridges the gap between physically challenged people and normal people.
+Real-time hand sign recognition through webcam using machine learning and computer vision.
 
-* Technologies Used *
-TensorFlow
-OpenCv 
-NUmPy 
-TensorFlow Object Detection Api
-SSD MobileNet ( Pre trained Model )
+## 🎯 Problem Statement
 
-Training an entire convolutional network from scratch is time consuming and requires large datasets
-This problem can be solved by using the advantage of transfer learning with a pre-trained model using the TensorFlow API.
-Pre-trained models : People release their final ConvNet checkpoints for the benefit of others who can use the networks for fine-tuning. 
-TensorFlow Zoo is one such place where people share their trained models/checkpoints The advantage of using a pre-trained model is that instead of building the model 
-from scratch, a model trained for a similar problem can be used as a starting point for training the network.
+Speech-impaired individuals communicate through hand signs and gestures, creating a communication barrier with those unfamiliar with sign language. This project bridges that gap by automatically detecting and interpreting hand signs in real-time.
+
+## 💡 Solution
+
+A machine learning-based detection system that:
+- 📹 Captures hand signs through webcam in real-time
+- 🤖 Recognizes and classifies different gestures using Machine Learning
+- 🌉 Bridges communication between speech-impaired and hearing individuals
+- ⚡ Provides instant recognition and interpretation
+
+## 🎬 See It In Action
+
+**Working demonstration video:** [Demo.mp4](./working in realtime.mp4)
+
+> Click the video file above to see the system detecting sign language in real-time!
+
+## 🛠️ Tech Stack
+
+- **TensorFlow** - Deep learning framework
+- **OpenCV** - Computer vision and video processing
+- **NumPy** - Numerical computing
+- **TensorFlow Object Detection API** - Pre-trained model integration
+- **SSD MobileNet** - Lightweight object detection model
+
+## 🚀 Why Transfer Learning?
+
+Training convolutional networks from scratch is time-consuming and requires massive datasets. This project leverages **transfer learning** using TensorFlow's pre-trained models:
+
+✅ **Faster development**
+✅ **Better accuracy**
+✅ **Resource efficient**
+
+### Pre-trained Model: SSD MobileNet
+- Optimized for real-time detection on standard hardware
+- Balances speed and accuracy for webcam applications
+- Available through [TensorFlow Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
+
+## 🎓 Learning Resources
+
+This project was built following techniques from [Nicholas Renotte's tutorials](https://github.com/nicknochnack).
+
+---
+
+*Empowering communication through AI* 🤝
 
 
 Reference.
